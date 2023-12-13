@@ -1,3 +1,5 @@
+--liquibase formatted sql
+--changeset ktrojan:3
 
 insert into news(title, content, created) values ( 'Test news 1', 'Content 1', '2023-01-23T13:14:05.562673800');
 insert into news(title, content, created) values ( 'Test news 2', 'Content 2', '2023-01-24T13:14:05.563649');
